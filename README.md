@@ -9,8 +9,8 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import logging
 
 # Configuration
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', 'YOUR_BOT_TOKEN')
-WEATHER_API_KEY = os.getenv('WEATHER_API_KEY', 'YOUR_WEATHER_API')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '8254694780:AAF4wsQ2NmZ4i8R6YkTC4p4Qv76JaNXOLp')
+WEATHER_API_KEY = os.getenv('WEATHER_API_KEY', 'http://api.weatherapi.com/v1/forecast.json?key=&q=Vietnam&days=1&aqi=no&alerts=no')
 GROUP_CHAT_ID = os.getenv('GROUP_CHAT_ID', 'YOUR_GROUP_ID')  # Negative number for groups
 ADMIN_IDS = [12345678]  # Your Telegram user ID
 
